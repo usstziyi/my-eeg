@@ -5,9 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "ipympl>=0.10.0",
+    "ipywidgets>=8.1.8",
     "matplotlib>=3.10.9",
-    "nme>=0.1.8",
+    "mne>=1.12.1",
     "numpy>=2.4.4",
+    "pandas>=3.0.2",
 ]
 
 [dependency-groups]
